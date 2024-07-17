@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name_of_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Recipe Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:orientation = "vertical"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/calories_in_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Calories"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Ingredients"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+        <ListView
+            android:id="@+id/ingredients_of_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/instructions_of_recipe"
+        android:orientation = "vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Instructions"
+        android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/cookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Cook" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Back" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RecipeApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ... other style attributes ... -->
+
+        <!-- Add the splash screen background color -->
+        <item name="android:windowSplashScreenBackground">@color/green</item>
+    </style>
+
+</resources>

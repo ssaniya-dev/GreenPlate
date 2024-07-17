@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/home_foreground"
+        android:title="Home"
+        android:id="@+id/homeNavbarIcon"/>
+    <item
+        android:icon="@drawable/input_meal_foreground"
+        android:title="Input Meal"
+        android:id="@+id/inputMealNavbarIcon" />
+    <item
+        android:icon="@drawable/recipe_foreground"
+        android:title="Recipe"
+        android:id="@+id/recipeNavbarIcon" />
+    <item
+        android:icon="@drawable/ingredient_foreground"
+        android:title="Ingredient"
+        android:id="@+id/ingredientNavbarIcon" />
+    <item
+        android:icon="@drawable/shopping_list_foreground"
+        android:title="Shopping List"
+        android:id="@+id/shopping_listNavbarIcon"/>
+</menu>
